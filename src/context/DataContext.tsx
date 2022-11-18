@@ -34,7 +34,6 @@ export default function DataProvider({ children }: ProviderProps): JSX.Element {
                     })
                 }
             });
-            console.log('tempList is ', tempList);
             setCurrencyList(tempList);
         }
     }, [status])
